@@ -35,7 +35,9 @@ class Clock extends Component {
               ishsow: !this.state.ishsow,
             });
           }}
-        >show/hide</button>
+        >
+          show/hide
+        </button>
         {this.state.ishsow === true ? (
           <div>
             <img src={this.state.imgSrc} alt="" />
